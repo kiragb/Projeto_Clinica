@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto Clinica</string>
+    <string name="title_activity_tela_agenda">TelaAgendaActivity</string>
+    <string name="tab_text_1">Sua Agenda</string>
+    <string name="tab_text_2">Agenda da Clínica</string>
+    <string name="title_activity_detalhes_da_sessao">Detalhes_da_Sessao</string>
+    <string name="tab_text_3">Cliente e Profissional</string>
+    <string name="tab_text_4">Última Sessão</string>
+</resources>

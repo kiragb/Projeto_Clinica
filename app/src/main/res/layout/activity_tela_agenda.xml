@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaAgendaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="20"
+            android:text="!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/NomeUsuario"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_conversion_absoluteHeight="37dp"
+            tools:layout_conversion_absoluteWidth="112dp"
+            tools:layout_editor_absoluteX="-58dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <TextView
+            android:id="@+id/NomeUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/Saudações"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_conversion_absoluteHeight="37dp"
+            tools:layout_conversion_absoluteWidth="119dp"
+            tools:layout_editor_absoluteX="-43dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/Saudações"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="20"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_conversion_absoluteHeight="37dp"
+            tools:layout_editor_absoluteY="37dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_conversion_absoluteWidth="112dp" />
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="411dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- BARRRA TERMINA AQUI-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="340dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="60dp"
+            app:layout_anchor="@+id/linearLayout2"
+            app:layout_anchorGravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="40dp">
+
+            <Button
+                android:id="@+id/BotãoCard"
+                android:layout_width="340dp"
+                android:layout_height="116dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-6dp"
+                android:background="@drawable/rotulo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="168dp"
+                android:layout_height="22dp"
+                android:gravity="center"
+                android:text="Horário: 11h - 13:30h"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.682" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="197dp"
+                android:layout_height="35dp"
+                android:text="Luciana - Criolipólise"
+                android:textColor="#495151"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.358" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="119dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-130dp"
+            android:background="#FBFAFA"
+            android:gravity="center"
+            android:text="Próximo Cliente"
+            android:textColor="#097764"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="-5dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="166dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="190dp"
+            android:background="#FBFAFA"
+            android:gravity="center"
+            android:text="Status: Aguardando"
+            android:textColor="#414746"
+            android:textSize="15dp"
+            android:textStyle="italic|bold" />
+
+
+    </LinearLayout>
+
+    <!-- DATA E OUTRAS PÁGINAS -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:layout_marginTop="190dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

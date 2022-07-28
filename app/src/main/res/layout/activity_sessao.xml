@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sessao">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="341dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/rotulo"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="60dp"
+        app:layout_anchor="@+id/linearLayout2"
+        app:layout_anchorGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="40dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="127dp"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:text="Sessão:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.186"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.73" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="139dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="2/3 - Criolipólise"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.628"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.734" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-80dp"
+            android:text="Luciana Santos"
+            android:textColor="#02675D"
+            android:textSize="20dp"
+            app:layout_anchorGravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.654"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.673" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="119dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-120dp"
+        android:layout_marginLeft="130dp"
+        android:background="#FBFAFA"
+        android:gravity="center"
+        android:text="Iniciar sessão de"
+        android:textColor="#414746"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="119dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="110dp"
+        android:background="#FBFAFA"
+        android:gravity="center"
+        android:text="Equipamento: "
+        android:textColor="#414746"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="234dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="-30dp"
+        android:background="#FBFAFA"
+        android:gravity="center"
+        android:text="Criodermis Crioplace Medical 01 "
+        android:textColor="#414746"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/vermaisinfo"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:background="#FBFAFA"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Ver mais informações "
+        android:textColor="#414746" />
+
+    <Button
+        android:id="@+id/Entrar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttom"
+        android:text="Iniciar Sessão"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+
+    <TextView
+        android:id="@+id/cancelar"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#FBFAFA"
+        android:gravity="center"
+        android:text="Cancelar "
+        android:textColor="#414746"
+        android:textSize="15dp" />
+</LinearLayout>
