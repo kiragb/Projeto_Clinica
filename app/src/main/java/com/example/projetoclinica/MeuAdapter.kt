@@ -8,18 +8,20 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
- class MeuAdapter(
-    context: Context?,
-     var imgIcon: Array <Int>,
-    var txtTitle: Array <String>
-) :
-    BaseAdapter() {
-    private val mInflater: LayoutInflater
-    override fun getCount(): Int {
-        return imgIcon.size
+class MeuAdapter(private val context: Context, var imgIcon: Array<Int>,var  txtTitle: Array<String>) : BaseAdapter() {
+
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
+
+            val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val view = inflater.inflate(R.layout.item_list, null,true)
+
+        view.findViewById<ImageView>(R.id.imageView).setImageResource(imgIcon[position])
+        view.findViewById<TextView>(R.id.text).text = txtTitle[position]
+
+        return view
     }
 
-    override fun getItem(position: Int): Int {
+    override fun getItem(position: Int): Any {
         return position
     }
 
@@ -27,41 +29,7 @@ import android.widget.TextView
         return position.toLong()
     }
 
-    override fun getView(position: Int, view: View, parent: ViewGroup): View {
-        var view = view
-        val itemHolder: ItemSuporte
-
-        if (view == null) {
-
-            view = mInflater.inflate(R.layout.item_list, null)
-
-            itemHolder = ItemSuporte()
-            itemHolder.txtTitle = view.findViewById<View>(R.id.text) as TextView
-            itemHolder.imgIcon = view.findViewById<View>(R.id.imagemview) as ImageView
-
-            view.tag = itemHolder
-        } else {
-            itemHolder = view.tag as ItemSuporte
-        }
-
-        itemHolder.txtTitle!!.text = txtTitle[position]
-        itemHolder.imgIcon!!.setImageResource(imgIcon[position])
-
-        return view
-    }
-
-
-    private inner class ItemSuporte {
-        var imgIcon: ImageView? = null
-        var txtTitle: TextView? = null
-    }
-
-    init {
-        //Itens do listview
-        //Objeto responsável por pegar o Layout do item.
-        mInflater = LayoutInflater.from(context)
+    override fun getCount(): Int {
+        return imgIcon.size
     }
 }
-
-
-
