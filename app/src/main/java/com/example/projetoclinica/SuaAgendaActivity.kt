@@ -5,12 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import android.widget.ArrayAdapter
-import android.widget.Toast.makeText
 import androidx.annotation.Nullable
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import java.util.*
+import java.util.jar.Attributes
 
 
 class SuaAgendaActivity : Fragment(){
@@ -26,15 +23,15 @@ class SuaAgendaActivity : Fragment(){
 
         val Agenda = view.findViewById<ListView>(R.id.Agenda)
 
-        val nomes= arrayOf("10h", "11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h", "19h", "20h", "21h", "22h")
+        val txtTitle = arrayOf( "10h","11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h", "19h", "20h", "21h", "22h")
+        val imgIcon = arrayOf(R.drawable.login)
 
-        Agenda!!.adapter = ArrayAdapter(
-            view.context,
-            android.R.layout.simple_list_item_1, nomes
-        )
 
-        }
-}
+        Agenda!!.adapter = MeuAdapter(view.context, imgIcon, txtTitle)
+
+
+    }}
+
 
 
 
