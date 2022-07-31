@@ -60,7 +60,7 @@
                 android:id="@+id/BotãoCard"
                 android:layout_width="250dp"
                 android:layout_height="79dp"
-                android:layout_marginLeft="-300dp"
+                android:layout_marginLeft="-320dp"
                 android:layout_marginTop="140dp"
                 android:background="@drawable/rotulo"
                 app:layout_constraintBottom_toBottomOf="parent"
