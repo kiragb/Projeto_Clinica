@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
-import java.util.jar.Attributes
 
 
 class SuaAgendaActivity : Fragment(){
@@ -23,13 +22,10 @@ class SuaAgendaActivity : Fragment(){
 
         val Agenda = view.findViewById<ListView>(R.id.Agenda)
 
-        val CardBotao = arrayOf(R.drawable.rotulo_preenchido)
-        val txtTitle = arrayOf( "10h","11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h", "19h", "20h", "21h", "22h")
-        val Nome = arrayOf("Luciana")
-        val Sessao = arrayOf("Sessão 2/3: Criolipólise")
+        val txtTitle= arrayOf("10h", "11h", "12h", "13h", "14h", "15h", "16h", "17h", "18h", "19h", "20h", "21h", "22h")
 
-
-        Agenda!!.adapter = MeuAdapter(view.context,txtTitle,Nome, Sessao, CardBotao,)
+        Agenda!!.adapter = MeuAdapter(
+            view.context, txtTitle )
 
 
     }}

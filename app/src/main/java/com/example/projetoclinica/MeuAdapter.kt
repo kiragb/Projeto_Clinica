@@ -12,10 +12,8 @@ import kotlinx.android.synthetic.main.item_list.view.*
 
 class MeuAdapter(
     private val context: Context,
-    var  txtTitle: Array<String>,
-    var  Nome: Array<String>,
-    var  Sessao: Array<String>,
-    var CardBotao: Array<Int>) :
+    var txtTitle: Array<String>
+) :
 
     BaseAdapter() {
 
@@ -26,8 +24,6 @@ class MeuAdapter(
             val view = inflater.inflate(R.layout.item_list, null,true)
 
         view.findViewById<TextView>(R.id.text).text = txtTitle[position]
-        view.findViewById<TextView>(R.id.Sessao).text = Sessao[position]
-        view.findViewById<TextView>(R.id.Nome).text = Nome[position]
 
         return view
     }
@@ -41,6 +37,6 @@ class MeuAdapter(
     }
 
     override fun getCount(): Int {
-        return CardBotao.size
+        return txtTitle.size
     }
 }
