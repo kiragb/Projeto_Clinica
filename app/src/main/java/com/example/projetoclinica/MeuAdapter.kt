@@ -1,5 +1,6 @@
 package com.example.projetoclinica
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -7,16 +8,26 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import kotlinx.android.synthetic.main.item_list.view.*
 
-class MeuAdapter(private val context: Context, var imgIcon: Array<Int>,var  txtTitle: Array<String>) : BaseAdapter() {
+class MeuAdapter(
+    private val context: Context,
+    var  txtTitle: Array<String>,
+    var  Nome: Array<String>,
+    var  Sessao: Array<String>,
+    var CardBotao: Array<Int>) :
 
+    BaseAdapter() {
+
+    @SuppressLint("ViewHolder", "InflateParams")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View? {
 
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val view = inflater.inflate(R.layout.item_list, null,true)
 
-        view.findViewById<ImageView>(R.id.imageView).setImageResource(imgIcon[position])
         view.findViewById<TextView>(R.id.text).text = txtTitle[position]
+        view.findViewById<TextView>(R.id.Sessao).text = Sessao[position]
+        view.findViewById<TextView>(R.id.Nome).text = Nome[position]
 
         return view
     }
@@ -30,6 +41,6 @@ class MeuAdapter(private val context: Context, var imgIcon: Array<Int>,var  txtT
     }
 
     override fun getCount(): Int {
-        return imgIcon.size
+        return CardBotao.size
     }
 }

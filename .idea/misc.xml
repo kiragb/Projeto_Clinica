@@ -14,6 +14,7 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/ic_navegar.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/rotulo.xml" value="0.2105" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/trasicao.xml" value="0.2105" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_detalhes_da_sessao.xml" value="0.2033514492753623" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_passo_apasso.xml" value="0.33" />
@@ -29,6 +30,7 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/fragment2_layout.xml" value="0.16032608695652173" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/fragment_detalhes_da__sessao.xml" value="0.1890625" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/fragment_tela_agenda.xml" value="0.16032608695652173" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/item_list.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sessao_activity.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sua_agenda.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/ultima_sessao.xml" value="0.2033514492753623" />
