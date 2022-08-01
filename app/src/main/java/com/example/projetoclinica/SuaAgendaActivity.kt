@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
+import java.text.SimpleDateFormat
+import java.util.*
 import android.content.Intent as Intent
 
 
@@ -28,6 +30,13 @@ class SuaAgendaActivity : Fragment() {
 
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val date = Calendar.getInstance().time
+
+        val DiaeMes = view.findViewById<TextView>(R.id.DiaeMes)
+
+        var dateTimeFormat = SimpleDateFormat("EEEE, dd MMMM ", Locale.getDefault())
+        DiaeMes!!.text = dateTimeFormat.format(date)
 
         val Agenda = view.findViewById<ListView>(R.id.Agenda)
 

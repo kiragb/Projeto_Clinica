@@ -28,8 +28,6 @@ class TelaAgendaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-
-
         NomeUsuario = findViewById<View>(R.id.NomeUsuario) as TextView?
         val valor = intent.getStringExtra("Chave")
         NomeUsuario?.text = valor

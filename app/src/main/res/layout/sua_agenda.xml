@@ -14,6 +14,7 @@
             android:layout_width="40dp"
             android:layout_height="35dp"
             android:layout_marginStart="310dp"
+            android:layout_marginTop="3dp"
             android:src="@drawable/ic_navegar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -25,35 +26,29 @@
 
         <TextView
             android:id="@+id/DiaeMes"
-            android:layout_width="120dp"
-            android:layout_height="20dp"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-240dp"
+            android:layout_marginTop="-10dp"
             android:gravity="center_horizontal"
-            android:text="alo"
             android:textColor="#121212"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.066" />
+            android:textStyle="bold" />
 
 
         <ImageView
             android:id="@+id/DataAnterior"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="-500dp"
+            android:layout_marginStart="-220dp"
+            android:layout_marginTop="3dp"
             android:src="@drawable/ic_voltar" />
 
         <ListView
             android:id="@+id/Agenda"
             android:layout_width="411dp"
             android:layout_height="438dp"
-            android:layout_marginStart="-60dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="-75dp"
+            android:layout_marginTop="60dp"
             tools:ignore="NestedScrolling">
 
         </ListView>
@@ -64,7 +59,7 @@
             android:layout_width="270dp"
             android:layout_height="67dp"
             android:layout_marginStart="-360dp"
-            android:layout_marginTop="73dp"
+            android:layout_marginTop="91dp"
             android:background="@drawable/rotulo"
             android:backgroundTint="#DFE2EC">
 
@@ -75,7 +70,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-250dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="80dp"
             android:gravity="left"
             android:text="@string/luciana"
             android:textColor="#000000"
@@ -86,9 +81,9 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="197dp"
-            android:layout_height="35dp"
+            android:layout_height="45dp"
             android:layout_marginLeft="-200dp"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="105dp"
             android:gravity="left"
             android:text="@string/Nome_da_Sessao"
             android:textColor="#000000"
@@ -101,7 +96,7 @@
             android:layout_width="270dp"
             android:layout_height="37dp"
             android:layout_marginStart="-215dp"
-            android:layout_marginTop="155dp"
+            android:layout_marginTop="175dp"
             android:background="@drawable/rotulo"
             android:backgroundTint="#DFE2EC">
 
@@ -113,7 +108,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-250dp"
-            android:layout_marginTop="155dp"
+            android:layout_marginTop="175dp"
             android:gravity="left"
             android:text="Luciana M. |"
             android:textColor="#000000"
@@ -126,7 +121,7 @@
             android:layout_width="167dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-110dp"
-            android:layout_marginTop="155dp"
+            android:layout_marginTop="175dp"
             android:gravity="left"
             android:text="Sessão 2/3 - Criolipólise"
             android:textColor="#000000"
@@ -140,7 +135,7 @@
             android:layout_width="270dp"
             android:layout_height="67dp"
             android:layout_marginStart="-275dp"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="240dp"
             android:background="@drawable/rotulo"
             android:backgroundTint="#DFE2EC">
 
@@ -151,7 +146,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-250dp"
-            android:layout_marginTop="210dp"
+            android:layout_marginTop="230dp"
             android:gravity="left"
             android:text="@string/luciana"
             android:textColor="#000000"
@@ -164,7 +159,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-198dp"
-            android:layout_marginTop="235dp"
+            android:layout_marginTop="255dp"
             android:gravity="left"
             android:text="@string/Nome_da_Sessao"
             android:textColor="#000000"
@@ -178,7 +173,7 @@
             android:layout_width="270dp"
             android:layout_height="67dp"
             android:layout_marginStart="-216dp"
-            android:layout_marginTop="297dp"
+            android:layout_marginTop="317dp"
             android:background="@drawable/rotulo"
             android:backgroundTint="#DFE2EC">
 
@@ -189,7 +184,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-250dp"
-            android:layout_marginTop="285dp"
+            android:layout_marginTop="305dp"
             android:gravity="left"
             android:text="Luciana"
             android:textColor="#000000"
@@ -202,7 +197,7 @@
             android:layout_width="197dp"
             android:layout_height="35dp"
             android:layout_marginLeft="-199dp"
-            android:layout_marginTop="310dp"
+            android:layout_marginTop="330dp"
             android:gravity="left"
             android:text="@string/Nome_da_Sessao"
             android:textColor="#000000"
