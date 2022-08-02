@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/DataPosterior"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_navegar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.956"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.056"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/DiaeMes"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-240dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#121212"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/DataAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-220dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_voltar" />
+
+        <ListView
+            android:id="@+id/Agenda"
+            android:layout_width="411dp"
+            android:layout_height="438dp"
+            android:layout_marginStart="-75dp"
+            android:layout_marginTop="60dp"
+            tools:ignore="NestedScrolling">
+
+        </ListView>
+
+        <!-- PRIMEIRO CARD-->
+        <Button
+            android:id="@+id/BotãoCard1"
+            android:layout_width="270dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="-360dp"
+            android:layout_marginTop="91dp"
+            android:background="@drawable/rotulo"
+            android:backgroundTint="#DFE2EC">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-250dp"
+            android:layout_marginTop="80dp"
+            android:gravity="left"
+            android:text="@string/luciana"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:translationZ="90dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="197dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="-200dp"
+            android:layout_marginTop="105dp"
+            android:gravity="left"
+            android:text="@string/Nome_da_Sessao"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:translationZ="90dp" />
+
+        <!-- SEGUNDO CARD-->
+        <Button
+            android:id="@+id/BotãoCard2"
+            android:layout_width="270dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="-215dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/rotulo"
+            android:backgroundTint="#DFE2EC">
+
+        </Button>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-250dp"
+            android:layout_marginTop="175dp"
+            android:gravity="left"
+            android:text="Luciana M. |"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:translationZ="90dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="167dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginTop="175dp"
+            android:gravity="left"
+            android:text="Sessão 2/3 - Criolipólise"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:translationZ="90dp" />
+
+        <!-- TERCEIRO CARD-->
+
+        <Button
+            android:id="@+id/BotãoCard3"
+            android:layout_width="270dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="-275dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/rotulo"
+            android:backgroundTint="#DFE2EC">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-250dp"
+            android:layout_marginTop="230dp"
+            android:gravity="left"
+            android:text="@string/luciana"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:translationZ="90dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-198dp"
+            android:layout_marginTop="255dp"
+            android:gravity="left"
+            android:text="@string/Nome_da_Sessao"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:translationZ="90dp" />
+
+        <!-- QUARTO CARD-->
+
+        <Button
+            android:id="@+id/BotãoCard4"
+            android:layout_width="270dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="-216dp"
+            android:layout_marginTop="317dp"
+            android:background="@drawable/rotulo"
+            android:backgroundTint="#DFE2EC">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-250dp"
+            android:layout_marginTop="305dp"
+            android:gravity="left"
+            android:text="Luciana"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:translationZ="90dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="197dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-199dp"
+            android:layout_marginTop="330dp"
+            android:gravity="left"
+            android:text="@string/Nome_da_Sessao"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:translationZ="90dp" />
+
+    </LinearLayout>
+
+</ScrollView>

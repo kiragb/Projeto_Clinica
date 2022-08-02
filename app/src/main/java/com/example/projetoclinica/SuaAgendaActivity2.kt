@@ -13,7 +13,7 @@ import java.util.*
 import android.content.Intent as Intent
 
 
-class SuaAgendaActivity : Fragment() {
+class SuaAgendaActivity2 : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -86,11 +86,6 @@ class SuaAgendaActivity : Fragment() {
             startActivity(intent)
         }
 
-        DataPosterior = view.findViewById(R.id.DataPosterior)
-        DataPosterior!!.setOnClickListener {
-            val intent = Intent(view.context, SuaAgendaActivity2::class.java)
-            startActivity(intent)
-        }
 
     }
 }

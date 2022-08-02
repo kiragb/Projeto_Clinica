@@ -18,8 +18,9 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_detalhes_da_sessao.xml" value="0.2033514492753623" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_passo_apasso.xml" value="0.33" />
-        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_pre_sessao.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_pre_sessao.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sessao.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sua_agenda2.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_tela_agenda.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/agenda_da_clinica.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/calendar_cel.xml" value="0.20416666666666666" />
@@ -33,6 +34,7 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/item_list.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sessao_activity.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sua_agenda.xml" value="0.25" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sua_agenda_2.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/ultima_sessao.xml" value="0.2033514492753623" />
       </map>
     </option>
