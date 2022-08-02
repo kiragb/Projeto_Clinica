@@ -37,9 +37,10 @@
         android:layout_width="288dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Selecione onde será feita a sessão"
+        android:text="Local selecionado: abdomen"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.429"
@@ -48,6 +49,7 @@
         app:layout_constraintVertical_bias="0.175">
 
     </TextView>
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -58,80 +60,52 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626"
+        app:layout_constraintVertical_bias="0.565"
         app:srcCompat="@drawable/mulhercorpo" />
 
-    <TextView
-        android:id="@+id/cancelar"
-        android:layout_width="218dp"
-        android:layout_height="30dp"
-        android:background="#FBFAFA"
-        android:gravity="center"
-        android:text="Cancelar "
-        android:textColor="#414746"
-        android:textSize="15dp"
+    <Button
+        android:id="@+id/Adicionar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/custom_edit_text"
+        android:text="Adicionar mais locais"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
-
+        app:layout_constraintTop_toBottomOf="@+id/Continuar"
+        app:layout_constraintVertical_bias="0.243" />
 
     <Button
         android:id="@+id/abdomem"
         android:layout_width="56dp"
         android:layout_height="41dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.681"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485">
+        android:background="@drawable/botoes_da_pre_sessao"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.371">
 
     </Button>
 
     <Button
-        android:id="@+id/costas"
-        android:layout_width="56dp"
-        android:layout_height="41dp"
-        android:background="#00000000"
+        android:id="@+id/Continuar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttom"
+        android:text="Continuar"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485">
-
-    </Button>
-
-    <Button
-        android:id="@+id/perna1"
-        android:layout_width="40dp"
-        android:layout_height="78dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705">
-
-    </Button>
-
-    <Button
-        android:id="@+id/perna2"
-        android:layout_width="40dp"
-        android:layout_height="79dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707">
-
-    </Button>
+        app:layout_constraintVertical_bias="0.883" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
