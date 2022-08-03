@@ -21,14 +21,14 @@ class Adicionar_Mais_Locais_Peito : AppCompatActivity() {
 
         cocha1 = findViewById(R.id.cocha1)
         cocha1!!.setOnClickListener {
-            val intent = Intent(this@Adicionar_Mais_Locais_Peito, Cochas_e_Peito::class.java)
+            val intent = Intent(this@Adicionar_Mais_Locais_Peito, Coxas_e_Peito::class.java)
             startActivity(intent)
             finish()
         }
 
         cocha2 = findViewById(R.id.cocha2)
         cocha2!!.setOnClickListener {
-            val intent = Intent(this@Adicionar_Mais_Locais_Peito, Cochas_e_Peito::class.java)
+            val intent = Intent(this@Adicionar_Mais_Locais_Peito, Coxas_e_Peito::class.java)
             startActivity(intent)
             finish()
         }

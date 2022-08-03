@@ -28,14 +28,14 @@ class Pre_Sessao : AppCompatActivity() {
 
         cocha1 = findViewById(R.id.cocha1)
         cocha1!!.setOnClickListener {
-            val intent = Intent(this@Pre_Sessao, Cochas::class.java)
+            val intent = Intent(this@Pre_Sessao, Coxas::class.java)
             startActivity(intent)
             finish()
         }
 
         cocha2 = findViewById(R.id.cocha2)
         cocha2!!.setOnClickListener {
-            val intent = Intent(this@Pre_Sessao, Cochas::class.java)
+            val intent = Intent(this@Pre_Sessao, Coxas::class.java)
             startActivity(intent)
             finish()
         }

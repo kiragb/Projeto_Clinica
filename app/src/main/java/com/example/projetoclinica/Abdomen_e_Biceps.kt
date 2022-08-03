@@ -3,9 +3,9 @@ package com.example.projetoclinica
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Cochas_e_Peito : AppCompatActivity() {
+class Abdomen_e_Biceps : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cochas_e_peito)
+        setContentView(R.layout.activity_abdomen_e_biceps)
     }
 }

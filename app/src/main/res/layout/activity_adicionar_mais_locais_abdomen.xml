@@ -34,10 +34,10 @@
         app:layout_constraintVertical_bias="0.113"/>
 
     <TextView
-        android:layout_width="288dp"
-        android:layout_height="40dp"
+        android:layout_width="260dp"
+        android:layout_height="38dp"
         android:gravity="center"
-        android:text="Local selecionado: Abdomen"
+        android:text="Selecione mais um local onde será feita a sessão"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"

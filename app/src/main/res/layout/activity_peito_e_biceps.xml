@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pre_Sessao">
+    tools:context=".Biceps">
 
     <TextView
         android:id="@+id/textView12"
@@ -37,7 +37,7 @@
         android:layout_width="288dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Local selecionado: Abdomen e Costas"
+        android:text="Local selecionado: Peito"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -63,47 +63,44 @@
         app:layout_constraintVertical_bias="0.565"
         app:srcCompat="@drawable/mulhercorpo" />
     <Button
-        android:id="@+id/peito"
-        android:layout_width="57dp"
-        android:layout_height="55dp"
+        android:id="@+id/bicep1"
+        android:layout_width="22dp"
+        android:layout_height="40dp"
         android:background="@drawable/adicionar_mais_locais_borda"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.286">
+        app:layout_constraintVertical_bias="0.264">
 
     </Button>
 
     <Button
-        android:id="@+id/cocha1"
-        android:layout_width="30dp"
-        android:layout_height="49dp"
-        android:background="@drawable/botoes_da_pre_sessao"
+        android:id="@+id/bicep2"
+        android:layout_width="22dp"
+        android:layout_height="40dp"
+        android:background="@drawable/adicionar_mais_locais_borda"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.649"
+        app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.612">
-
-    </Button>
+        app:layout_constraintVertical_bias="0.264" />
 
     <Button
-        android:id="@+id/cocha2"
-        android:layout_width="30dp"
-        android:layout_height="49dp"
+        android:id="@+id/peito"
+        android:layout_width="53dp"
+        android:layout_height="36dp"
         android:background="@drawable/botoes_da_pre_sessao"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintHorizontal_bias="0.724"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.612">
+        app:layout_constraintVertical_bias="0.283">
 
     </Button>
-
 
     <Button
         android:id="@+id/Continuar"
