@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pre_Sessao">
+    tools:context=".Biceps">
 
     <TextView
         android:id="@+id/textView12"
@@ -34,11 +34,10 @@
         app:layout_constraintVertical_bias="0.113"/>
 
     <TextView
-        android:id="@+id/textView19"
         android:layout_width="288dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Local selecionado: Peito"
+        android:text="Local selecionado: Bíceps"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -64,48 +63,49 @@
         app:layout_constraintVertical_bias="0.565"
         app:srcCompat="@drawable/mulhercorpo" />
 
-
-    <Button
-        android:id="@+id/abdomem"
-        android:layout_width="69dp"
-        android:layout_height="79dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.732"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.632">
-
-    </Button>
-
     <Button
         android:id="@+id/bicep1"
-        android:layout_width="22dp"
-        android:layout_height="40dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408">
+        android:layout_width="30dp"
+        android:layout_height="49dp"
+        android:background="@drawable/botoes_da_pre_sessao"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.254">
 
     </Button>
 
     <Button
         android:id="@+id/bicep2"
-        android:layout_width="22dp"
-        android:layout_height="40dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.575"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407">
+        android:layout_width="30dp"
+        android:layout_height="49dp"
+        android:background="@drawable/botoes_da_pre_sessao"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.254">
 
     </Button>
+
+    <Button
+        android:id="@+id/Continuar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttom"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/peito"
@@ -120,64 +120,5 @@
         app:layout_constraintVertical_bias="0.286">
 
     </Button>
-
-    <Button
-        android:id="@+id/costas"
-        android:layout_width="56dp"
-        android:layout_height="41dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485">
-
-    </Button>
-
-    <Button
-        android:id="@+id/cocha1"
-        android:layout_width="30dp"
-        android:layout_height="49dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594">
-
-    </Button>
-
-    <Button
-        android:id="@+id/cocha2"
-        android:layout_width="31dp"
-        android:layout_height="44dp"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.702"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59">
-
-    </Button>
-
-    <TextView
-        android:id="@+id/cancelar"
-        android:layout_width="218dp"
-        android:layout_height="30dp"
-        android:background="#FBFAFA"
-        android:gravity="center"
-        android:text="Cancelar "
-        android:textColor="#414746"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
