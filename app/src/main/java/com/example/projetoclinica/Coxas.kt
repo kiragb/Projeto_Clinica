@@ -14,7 +14,7 @@ class Coxas : AppCompatActivity() {
 
         Adicionar = findViewById(R.id.Adicionar)
         Adicionar!!.setOnClickListener {
-            val intent = Intent(this@Coxas, Adicionar_Mais_Locais_Abdomen::class.java)
+            val intent = Intent(this@Coxas, Adicionar_Mais_Locais_Coxas::class.java)
             startActivity(intent)
             finish()
         }
