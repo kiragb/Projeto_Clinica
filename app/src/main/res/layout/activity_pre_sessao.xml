@@ -80,15 +80,57 @@
 
     <Button
         android:id="@+id/abdomem"
-        android:layout_width="56dp"
-        android:layout_height="41dp"
+        android:layout_width="69dp"
+        android:layout_height="79dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bicep1"
+        android:layout_width="22dp"
+        android:layout_height="40dp"
         android:background="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485">
+        app:layout_constraintVertical_bias="0.453">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bicep2"
+        android:layout_width="22dp"
+        android:layout_height="40dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453">
+
+    </Button>
+
+    <Button
+        android:id="@+id/peito"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448">
 
     </Button>
 
@@ -107,30 +149,30 @@
     </Button>
 
     <Button
-        android:id="@+id/perna1"
-        android:layout_width="40dp"
-        android:layout_height="78dp"
+        android:id="@+id/cocha1"
+        android:layout_width="30dp"
+        android:layout_height="49dp"
         android:background="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705">
+        app:layout_constraintVertical_bias="0.62">
 
     </Button>
 
     <Button
-        android:id="@+id/perna2"
-        android:layout_width="40dp"
-        android:layout_height="79dp"
+        android:id="@+id/cocha2"
+        android:layout_width="31dp"
+        android:layout_height="44dp"
         android:background="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintHorizontal_bias="0.723"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707">
+        app:layout_constraintVertical_bias="0.622">
 
     </Button>
 

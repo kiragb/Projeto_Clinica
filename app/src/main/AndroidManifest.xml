@@ -14,7 +14,34 @@
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
         <activity
-            android:name=".Adicionar_Mais_Locais"
+            android:name=".Adicionar_Mais_Locais_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Costas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Peito_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Cochas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Cochas"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Abdomen"
             android:exported="false" />
         <activity
             android:name=".Abdomen"

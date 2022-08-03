@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable-xxxhdpi/rotulo_preenchido.xml" value="0.2115" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/adicionar_mais_locais_borda.xml" value="0.2095" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botoes_da_pre_sessao.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo_certo.xml" value="0.2115" />
@@ -19,9 +20,19 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/trasicao.xml" value="0.2105" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/abdomen.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_abdomen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_adicionar_mais_locais.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_adicionar_mais_locais_abdomen.xml" value="0.21" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_biceps.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_biceps_e_abdomen.xml" value="0.1361111111111111" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_cochas.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_cochas_e_abdomen.xml" value="0.1267361111111111" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_costas.xml" value="0.1361111111111111" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_costas_e_abdomen.xml" value="0.1267361111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_detalhes_da_sessao.xml" value="0.2033514492753623" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_passo_apasso.xml" value="0.33" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_peito.xml" value="0.21" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_peito_e_abdomen.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_pre_sessao.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sessao.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sua_agenda2.xml" value="0.25" />
@@ -41,6 +52,8 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sua_agenda.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/sua_agenda_2.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/ultima_sessao.xml" value="0.2033514492753623" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2115" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

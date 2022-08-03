@@ -37,7 +37,7 @@
         android:layout_width="288dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Local selecionado: Abdomen"
+        android:text="Local selecionado: cochas"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -79,13 +79,13 @@
         app:layout_constraintVertical_bias="0.243" />
 
     <Button
-        android:id="@+id/abdomem"
+        android:id="@+id/costas"
         android:layout_width="56dp"
         android:layout_height="41dp"
         android:background="@drawable/botoes_da_pre_sessao"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:layout_constraintVertical_bias="0.371">
