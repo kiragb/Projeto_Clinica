@@ -37,7 +37,7 @@
         android:layout_width="288dp"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="Local selecionado: Abdomen e Peito"
+        android:text="Local selecionado: Peito"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
