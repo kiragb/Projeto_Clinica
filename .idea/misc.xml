@@ -9,6 +9,7 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botao_pressionado_naopressionado.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botoes_da_pre_sessao.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/btn_normal.xml" value="0.2105" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/btn_pressionado.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo_certo.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo_cheio.xml" value="0.2095" />
@@ -34,6 +35,7 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_adicionar_mais_locais_coxas.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_adicionar_mais_locais_peito.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_ast_abdomen.xml" value="0.25" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_ast_biceps_eabdomen.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_biceps.xml" value="0.19010416666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_biceps_e_abdomen.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_biceps_e_costas.xml" value="0.1267361111111111" />
