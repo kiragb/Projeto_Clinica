@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pre_Sessao">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pré Sessão"
+        android:textColor="@color/teal_700"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luciana Santos - Sessão 2/3 - Criolipólise"
+        android:textColor="#595353"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Selecione quais áreas do local serão trabalhadas"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local selecionado: Costas"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/botão5"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Interior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão1"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Interior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão7"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Inferior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão2"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Posterior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão6"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Posterior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão3"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Inferior"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão8"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Detalhe"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+    </Button>
+
+    <Button
+        android:id="@+id/botão4"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_normal"
+        android:text="Detalhe"
+        android:textAllCaps="false"
+        android:textColor="#086480"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local selecionado: Biceps"
+        android:textColor="@color/teal_700"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Continuar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttom"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
