@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TESTE">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pré Sessão"
+        android:textColor="@color/teal_700"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luciana Santos - Sessão 2/3 - Criolipólise"
+        android:textColor="#595353"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"/>
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Adicionar Medições"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medida 1"
+        android:textColor="@color/teal_700"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46">
+
+    <LinearLayout
+        android:id="@+id/lineardoedit"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/medida"
+            android:layout_width="267dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/rotulo"
+            android:gravity="center"
+            android:hint="Local da medição"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/local"
+            android:layout_width="267dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/rotulo"
+            android:gravity="center"
+            android:hint="Medidas (em cm)">
+        </EditText>
+
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:id="@+id/addmedidas"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+
+        android:background="@drawable/rotulo"
+        android:gravity="center"
+        android:text="+ Adicionar mais medidas"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Continuar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttom"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/MedidasPorFotos"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_edit_text"
+        android:text="Tirar medidas por fotos"
+        android:textAllCaps="false"
+        android:textColor="#333131"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/MedidasPorFotos"
+        app:layout_constraintEnd_toEndOf="@+id/MedidasPorFotos"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/MedidasPorFotos"
+        app:layout_constraintTop_toTopOf="@+id/MedidasPorFotos"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pular medidas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MedidasPorFotos"
+        app:layout_constraintVertical_bias="0.619">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

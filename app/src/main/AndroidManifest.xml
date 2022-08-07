@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.projetoclinica">
+    package="com.example.projetoclinica" >
 
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,7 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoClinica"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".TESTE"
+            android:exported="false" />
+        <activity
+            android:name=".Medidas_Por_Fotos"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Medicoes"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".AST_Coxas_e_Costas"
             android:exported="false" />
@@ -54,9 +65,6 @@
             android:exported="false" />
         <activity
             android:name=".AST_Peito_e_Coxas"
-            android:exported="false" />
-        <activity
-            android:name=".AST_Abodomen_e_Coxas"
             android:exported="false" />
         <activity
             android:name=".AST_Coxas"
@@ -205,7 +213,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_tela_agenda"
-            android:theme="@style/Theme.ProjetoClinica.NoActionBar">
+            android:theme="@style/Theme.ProjetoClinica.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

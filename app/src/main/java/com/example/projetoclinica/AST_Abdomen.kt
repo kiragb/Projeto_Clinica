@@ -10,6 +10,8 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
+import kotlinx.android.synthetic.main.activity_coxas.*
+import kotlin.coroutines.Continuation
 
 class AST_Abdomen : AppCompatActivity() {
 
@@ -17,6 +19,7 @@ class AST_Abdomen : AppCompatActivity() {
     var botão2: Button? = null
     var botão3: Button? = null
     var botão4: Button? = null
+    var Continuar: Button? = null
     @SuppressLint("ResourceType")
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,6 +47,13 @@ class AST_Abdomen : AppCompatActivity() {
         botão4!!.setOnClickListener {
             botão4!!.setBackgroundResource(R.drawable.btn_pressionado)
             botão4!!.setTextAppearance(Color.WHITE)
+        }
+
+        Continuar = findViewById(R.id.Continuar)
+        Continuar!!.setOnClickListener {
+            val intent = Intent(this@AST_Abdomen, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
