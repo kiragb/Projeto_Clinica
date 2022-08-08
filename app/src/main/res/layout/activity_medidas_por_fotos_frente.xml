@@ -37,9 +37,15 @@
         app:layout_constraintVertical_bias="0.128">
 
     </TextView>
-<!--Inicio Frente-->
-    <Button
-        android:id="@+id/frente"
+    <!--Inicio Frente-->
+
+
+    <!--Fim Frente-->
+
+    <!--Inicio Costas-->
+
+    <ImageView
+        android:id="@+id/imagefrente"
         android:layout_width="141dp"
         android:layout_height="128dp"
         android:background="@drawable/custom_edit_text"
@@ -48,23 +54,8 @@
         app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266" />
-
-    <ImageView
-        android:id="@+id/imagefrente"
-        android:layout_width="141dp"
-        android:layout_height="128dp"
-        android:background="@drawable/custom_edit_text"
-        app:layout_constraintBottom_toBottomOf="@+id/frente"
-        app:layout_constraintEnd_toEndOf="@+id/frente"
-        app:layout_constraintStart_toStartOf="@+id/frente"
-        app:layout_constraintTop_toTopOf="@+id/frente"
+        app:layout_constraintVertical_bias="0.265"
         app:srcCompat="@drawable/frente" />
-
-
-    <!--Fim Frente-->
-
-    <!--Inicio Costas-->
 
     <TextView
         android:layout_width="135dp"
@@ -182,7 +173,7 @@
         app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <TextView
         android:id="@+id/textView19"
@@ -202,6 +193,8 @@
 
     </TextView>
 
+    <!--Fim direita-->
+
     <ImageView
         android:id="@+id/imagedireita"
         android:layout_width="141dp"
@@ -209,10 +202,11 @@
         android:background="@drawable/custom_edit_text"
         app:layout_constraintBottom_toBottomOf="@+id/direita"
         app:layout_constraintEnd_toEndOf="@+id/direita"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/direita"
         app:layout_constraintTop_toTopOf="@+id/direita"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/direita" />
-    <!--Fim direita-->
 
     <Button
         android:id="@+id/Continuar"
@@ -220,8 +214,9 @@
         android:layout_height="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="30dp"
+        android:textAllCaps="false"
         android:background="@drawable/custom_buttom"
-        android:text="Continuar"
+        android:text="Calcular Medidas"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -231,6 +226,7 @@
         app:layout_constraintVertical_bias="0.888" />
 
     <TextView
+        android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pular medidas"
