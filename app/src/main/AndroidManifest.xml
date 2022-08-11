@@ -18,7 +18,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Mais_foto_4_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Foto_4"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Foto_3_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_foto_2_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_foto_2"
+            android:exported="false" />
         <activity
             android:name=".Mais_Foto_1_capture"
             android:exported="false" />
@@ -37,7 +54,6 @@
         <activity
             android:name=".Medidas_Por_Fotos_Frente"
             android:exported="false" />
-
         <activity
             android:name=".Medidas_Por_Fotos"
             android:exported="false" />
