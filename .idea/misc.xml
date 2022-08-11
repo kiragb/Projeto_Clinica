@@ -7,9 +7,12 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable-xxxhdpi/rotulo_preenchido.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/adicionar_mais_locais_borda.xml" value="0.2095" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botao_pressionado_naopressionado.xml" value="0.2115" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botaobranco.xml" value="0.152" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/botoes_da_pre_sessao.xml" value="0.2115" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/bt_transparente.xml" value="0.154" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/btn_normal.xml" value="0.2105" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/btn_pressionado.xml" value="0.2115" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/capture_button.xml" value="0.151" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo_certo.xml" value="0.2115" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/drawable/circulo_cheio.xml" value="0.2095" />
@@ -81,7 +84,10 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_coxas_e_peito.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_coxas_ebiceps.xml" value="0.17" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_detalhes_da_sessao.xml" value="0.2033514492753623" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_editar_medidas.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_mais_foto1_capture.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_mais_fotos_1.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_medidas_por_fotos.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_medidas_por_fotos_costas.xml" value="0.15443840579710144" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_medidas_por_fotos_frente.xml" value="0.22" />
@@ -92,9 +98,12 @@
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_peito_e_costas.xml" value="0.1267361111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_peito_e_coxas.xml" value="0.1361111111111111" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_pre_sessao.xml" value="0.25" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_resultados.xml" value="0.25" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_resultados2.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sessao.xml" value="0.20416666666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_sua_agenda2.xml" value="0.25" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_tela_agenda.xml" value="0.25" />
+        <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_tesre.xml" value="0.19010416666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_teste.xml" value="0.33" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/activity_teste2.xml" value="0.19010416666666666" />
         <entry key="..\:/Projeto Clinica/app/src/main/res/layout/agenda_da_clinica.xml" value="0.20416666666666666" />

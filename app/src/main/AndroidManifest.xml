@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <uses-feature android:name="android.hardware.camera.any" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,15 +18,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
+
         <activity
-            android:name=".Medidas_Por_Fotos_Costas"
+            android:name=".Mais_Foto_1_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_fotos_1"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados2"
+            android:exported="false" />
+        <activity
+            android:name=".Editar_Medidas"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados"
             android:exported="false" />
         <activity
             android:name=".Medidas_Por_Fotos_Frente"
             android:exported="false" />
-        <activity
-            android:name=".TESTE"
-            android:exported="false" />
+
         <activity
             android:name=".Medidas_Por_Fotos"
             android:exported="false" />

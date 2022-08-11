@@ -18,6 +18,7 @@ class Medidas_Por_Fotos_Frente : AppCompatActivity() {
     var imagefrente: ImageView? = null
     var costas: Button? = null
     var direita: Button? = null
+    var CalcularMedidas: Button? = null
     var imageViewFotoCostas: ImageView? = null
     var imageViewFotoDireita: ImageView? = null
 
@@ -55,6 +56,12 @@ class Medidas_Por_Fotos_Frente : AppCompatActivity() {
             }
         }
 
+       CalcularMedidas = findViewById(R.id.CalcularMedidas)
+        CalcularMedidas!!.setOnClickListener {
+            val intent = Intent(this@Medidas_Por_Fotos_Frente, Resultados::class.java)
+            startActivity(intent)
+        }
+
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -75,4 +82,6 @@ class Medidas_Por_Fotos_Frente : AppCompatActivity() {
         private const val CAMERA_REQUEST = 100
         private const val STORAGE_PERMISSION_CODE = 1
     }
+
+
 }

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mais_Foto_1_capture"
+    android:background="@color/white">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="-588sp"
+        android:background="#55FFFFFF"
+        android:gravity="center"
+        android:text="Foto 1/4"
+        android:textColor="@color/black"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_capture"
+        app:layout_constraintEnd_toEndOf="@+id/iv_capture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/iv_capture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:rotation="90"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/camera_capture_button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/capture_button"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_capture"
+        app:layout_constraintEnd_toEndOf="@+id/iv_capture"
+        app:layout_constraintLeft_toLeftOf="@id/iv_capture"
+        app:layout_constraintRight_toRightOf="@id/iv_capture"
+        app:layout_constraintStart_toStartOf="@+id/iv_capture"
+        app:layout_constraintTop_toTopOf="@+id/iv_capture" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="58dp"
+        android:translationZ="90dp"
+        android:src="@drawable/ic_baseline_clear_24"
+        app:layout_constraintBottom_toBottomOf="@+id/camera_sair"
+        app:layout_constraintEnd_toEndOf="@+id/camera_sair"
+        app:layout_constraintStart_toStartOf="@+id/camera_sair"
+        app:layout_constraintTop_toTopOf="@+id/camera_sair"/>
+
+    <Button
+        android:id="@+id/camera_sair"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-210sp"
+        android:background="@drawable/botaobranco"
+        android:elevation="2dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="400dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_capture"
+        app:layout_constraintEnd_toEndOf="@+id/iv_capture"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/iv_capture"
+        app:layout_constraintTop_toTopOf="@+id/iv_capture" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="58dp"
+        android:translationZ="90dp"
+        android:src="@drawable/ic_baseline_check_24"
+        app:layout_constraintBottom_toBottomOf="@+id/camera_capture_button"
+        app:layout_constraintEnd_toEndOf="@+id/camera_capture_button"
+        app:layout_constraintStart_toStartOf="@+id/camera_capture_button"
+        app:layout_constraintTop_toTopOf="@+id/camera_capture_button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
