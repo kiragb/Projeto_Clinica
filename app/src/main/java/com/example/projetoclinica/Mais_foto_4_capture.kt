@@ -9,7 +9,7 @@ import android.widget.ImageView
 
 class Mais_foto_4_capture : AppCompatActivity() {
 
-    var PularFoto: Button? = null
+    var Continuar: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mais_foto_4_capture)
@@ -23,5 +23,11 @@ class Mais_foto_4_capture : AppCompatActivity() {
             }
         }
 
+        Continuar = findViewById(R.id.Continuar)
+        Continuar!!.setOnClickListener {
+            val intent = Intent(this@Mais_foto_4_capture, Dados_da_Sessao::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

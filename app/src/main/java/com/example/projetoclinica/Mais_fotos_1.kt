@@ -32,11 +32,18 @@ class Mais_fotos_1 : AppCompatActivity() {
     private var imageCapture: ImageCapture? = null
     private lateinit var outputDirectory: File
     private lateinit var cameraExecutor: ExecutorService
+    var PularFoto: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mais_fotos_1)
 
+
+        PularFoto = findViewById(R.id.PularFoto)
+        PularFoto!!.setOnClickListener {
+            val intent = Intent(this@Mais_fotos_1, Dados_da_Sessao::class.java)
+            startActivity(intent)
+        }
         // hide the action bar
         supportActionBar?.hide()
 

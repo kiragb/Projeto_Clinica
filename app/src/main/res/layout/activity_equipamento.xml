@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="103dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="1sp"
+            android:text="Nome do equipamento"
+            android:textColor="@color/teal_700"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:text="Criodermes Criplace Meical 01"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        </TextView>
+
+
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-330sp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/rotulo"
+            android:ems="10"
+            android:hint="   Temperatura (c°)"
+            android:inputType="text"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-300sp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/rotulo"
+            android:hint="   Quantidade de disparos (un)"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-298sp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/rotulo"
+            android:hint="   Tempo de descanso (min)"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-295sp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/rotulo"
+            android:hint="   Cosméticos utilizados"
+            android:inputType="text">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="297dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-295sp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/rotulo"
+            android:hint="   Observavões extras"
+            android:inputType="text">
+
+        </EditText>
+
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="-330sp"
+            android:layout_marginTop="480sp"
+            android:text="Avance para preencher as informações pós sessão"
+            android:textSize="16sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/Entrar"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-340sp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/custom_buttom"
+            android:text="Continuar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/cancelar"
+            android:layout_width="219dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-270sp"
+            android:layout_marginTop="600sp"
+            android:gravity="center"
+            android:text="Pular anotações"
+            android:textColor="#414746"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>

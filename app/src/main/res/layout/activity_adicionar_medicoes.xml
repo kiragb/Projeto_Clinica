@@ -77,43 +77,43 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.46">
 
-    <LinearLayout
-        android:id="@+id/lineardoedit"
-        android:layout_width="match_parent"
-        android:layout_height="339dp"
-        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/lineardoedit"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:orientation="vertical">
 
 
-        <EditText
-            android:id="@+id/medida"
-            android:layout_width="267dp"
-            android:layout_height="44dp"
-            android:layout_marginLeft="50sp"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/rotulo"
-            android:gravity="center"
-            android:hint="Local da medição"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.47">
+            <EditText
+                android:id="@+id/medida"
+                android:layout_width="267dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rotulo"
+                android:gravity="center"
+                android:hint="Local da medição"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.47">
 
-        </EditText>
+            </EditText>
 
-        <EditText
-            android:id="@+id/local"
-            android:layout_width="267dp"
-            android:layout_height="44dp"
-            android:layout_marginLeft="50sp"
-            android:layout_marginTop="20sp"
-            android:background="@drawable/rotulo"
-            android:gravity="center"
-            android:hint="Medidas (em cm)">
-        </EditText>
+            <EditText
+                android:id="@+id/local"
+                android:layout_width="267dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rotulo"
+                android:gravity="center"
+                android:hint="Medidas (em cm)">
+            </EditText>
 
-    </LinearLayout>
-</ScrollView>
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/addmedidas"
