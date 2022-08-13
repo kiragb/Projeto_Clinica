@@ -10,7 +10,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pré Sessão"
+        android:text="Pós Sessão"
         android:textColor="@color/teal_700"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -114,91 +114,91 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:id="@+id/lineardoedit"
-                android:layout_width="match_parent"
-                android:layout_height="200sp"
-                android:layout_marginTop="30sp"
-                android:layout_marginBottom="10sp"
-                android:layout_marginStart="50sp"
-                android:layout_marginEnd="45sp"
-                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/lineardoedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginEnd="45sp"
+                    android:orientation="vertical">
 
-            </LinearLayout>
+                </LinearLayout>
             </ScrollView>
 
 
-        <Button
-            android:id="@+id/addmedidas"
-            android:layout_width="267dp"
-            android:layout_height="44dp"
-            android:layout_marginStart="50sp"
-            android:layout_marginTop="30sp"
-            android:background="@drawable/rotulo"
-            android:gravity="center"
-            android:text="+ Adicionar mais medidas"
-            android:textAllCaps="false"
-            android:textColor="@color/teal_700"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.513"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.711">
+            <Button
+                android:id="@+id/addmedidas"
+                android:layout_width="267dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="50sp"
+                android:layout_marginTop="30sp"
+                android:background="@drawable/rotulo"
+                android:gravity="center"
+                android:text="+ Adicionar mais medidas"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_700"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.513"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.711">
 
-        </Button>
+            </Button>
 
-        <Button
-            android:id="@+id/Continuar"
-            android:layout_width="320dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/custom_buttom"
-            android:text="Continuar"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.53"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.807" />
+            <Button
+                android:id="@+id/Continuar"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_buttom"
+                android:text="Continuar"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.53"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.807" />
 
-        <Button
-            android:id="@+id/MedidasPorFotos"
-            android:layout_width="320dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/custom_edit_text"
-            android:text="Tirar medidas por fotos"
-            android:textAllCaps="false"
-            android:textColor="#333131"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.53"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.907" />
+            <Button
+                android:id="@+id/MedidasPorFotos"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edit_text"
+                android:text="Tirar medidas por fotos"
+                android:textAllCaps="false"
+                android:textColor="#333131"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.53"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.907" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="56dp"
-            android:layout_height="43dp"
-            android:layout_marginStart="40sp"
-            android:layout_marginTop="-40sp"
-            app:srcCompat="@drawable/camera" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="56dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="40sp"
+                android:layout_marginTop="-40sp"
+                app:srcCompat="@drawable/camera" />
 
-        <TextView
-            android:id="@+id/pularmedidas"
-            android:layout_width="wrap_content"
-            android:layout_height="30sp"
-            android:layout_marginStart="130sp"
-            android:layout_marginTop="30sp"
-            android:text="Pular medidas">
+            <TextView
+                android:id="@+id/pularmedidas"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_marginStart="130sp"
+                android:layout_marginTop="30sp"
+                android:text="Pular medidas">
 
-        </TextView>
+            </TextView>
         </LinearLayout>
-</ScrollView>
+    </ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

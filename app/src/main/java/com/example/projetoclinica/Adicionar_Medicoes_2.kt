@@ -12,13 +12,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 
-class Adicionar_Medicoes : AppCompatActivity() {
+class Adicionar_Medicoes_2 : AppCompatActivity() {
 
     var MedidasPorFotos: Button? = null
     var pularmedidas: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_adicionar_medicoes)
+        setContentView(R.layout.activity_adicionar_medicoes_2)
         val Add_button = findViewById<View>(R.id.addmedidas) as Button
         Add_button.setOnClickListener { Add_Line()
 
@@ -26,13 +26,13 @@ class Adicionar_Medicoes : AppCompatActivity() {
 
         MedidasPorFotos = findViewById(R.id.MedidasPorFotos)
         MedidasPorFotos!!.setOnClickListener {
-            val intent = Intent(this@Adicionar_Medicoes, Medidas_Por_Fotos::class.java)
+            val intent = Intent(this@Adicionar_Medicoes_2, Medidas_Por_Fotos_2::class.java)
             startActivity(intent)
             finish()
         }
         pularmedidas = findViewById(R.id.pularmedidas)
         pularmedidas!!.setOnClickListener {
-            val intent = Intent(this@Adicionar_Medicoes, Mais_fotos_1::class.java)
+            val intent = Intent(this@Adicionar_Medicoes_2, Mais_Fotos_1_Pos::class.java)
             startActivity(intent)
             finish()
         }
