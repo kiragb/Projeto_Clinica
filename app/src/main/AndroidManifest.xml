@@ -19,6 +19,24 @@
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
         <activity
+            android:name=".Mais_Fotos_4_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_4_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_2_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_2_Pos"
+            android:exported="false" />
+        <activity
             android:name=".Mais_Fotos_1_capture_Pos"
             android:exported="false" />
         <activity

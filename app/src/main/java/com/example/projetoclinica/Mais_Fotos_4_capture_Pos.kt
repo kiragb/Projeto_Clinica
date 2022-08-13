@@ -9,14 +9,14 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 
-class Mais_Fotos_1_capture_Pos: AppCompatActivity() {
+class Mais_Fotos_4_capture_Pos: AppCompatActivity() {
 
-    var PularFoto: Button? = null
+    var Continuar: Button? = null
 
     @SuppressLint("RestrictedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mais_fotos_1_capture_pos)
+        setContentView(R.layout.activity_mais_fotos4_capture_pos)
 
 
         val extras2 = intent.extras
@@ -26,9 +26,9 @@ class Mais_Fotos_1_capture_Pos: AppCompatActivity() {
                 findViewById<ImageView>(R.id.iv_capture).setImageURI(image)
             }
         }
-        PularFoto = findViewById(R.id.PularFoto)
-        PularFoto!!.setOnClickListener {
-            val intent = Intent(this@Mais_Fotos_1_capture_Pos, Mais_Fotos_2_Pos::class.java)
+        Continuar = findViewById(R.id.Continuar)
+        Continuar!!.setOnClickListener {
+            val intent = Intent(this@Mais_Fotos_4_capture_Pos, Dados_da_Sessao::class.java)
             startActivity(intent)
             finish()
         }
