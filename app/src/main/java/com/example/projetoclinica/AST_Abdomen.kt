@@ -60,7 +60,7 @@ class AST_Abdomen : AppCompatActivity() {
         }
         imageView = findViewById(R.id.imageView)
         imageView!!.setOnClickListener {
-            val intent = Intent(this@AST_Abdomen, Abddomen::class.java)
+            val intent = Intent(this@AST_Abdomen, Abdomen::class.java)
             startActivity(intent)
             finish()
         }
