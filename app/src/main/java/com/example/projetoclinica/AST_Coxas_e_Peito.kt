@@ -8,11 +8,13 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 
 class AST_Coxas_e_Peito : AppCompatActivity() {
     var Continuar: Button? = null
+    var imageView: ImageView? = null
 
     var botão1: Button? = null
     var botão2: Button? = null
@@ -77,6 +79,12 @@ class AST_Coxas_e_Peito : AppCompatActivity() {
         Continuar = findViewById(R.id.Continuar)
         Continuar!!.setOnClickListener {
             val intent = Intent(this@AST_Coxas_e_Peito, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@AST_Coxas_e_Peito, Coxas_e_Peito::class.java)
             startActivity(intent)
             finish()
         }

@@ -8,6 +8,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 
@@ -18,6 +19,8 @@ class AST_Biceps : AppCompatActivity() {
     var botão2: Button? = null
     var botão3: Button? = null
     var botão4: Button? = null
+    var imageView: ImageView? = null
+
     @SuppressLint("ResourceType")
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,5 +55,12 @@ class AST_Biceps : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@AST_Biceps, Biceps::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

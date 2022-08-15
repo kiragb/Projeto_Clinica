@@ -8,6 +8,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 
@@ -22,6 +23,8 @@ class AST_Abdomen_e_Biceps: AppCompatActivity() {
     var botão7: Button? = null
     var botão8: Button? = null
     var Continuar: Button? = null
+    var imageView: ImageView? = null
+
 
     @SuppressLint("ResourceType")
     @RequiresApi(Build.VERSION_CODES.M)
@@ -81,6 +84,12 @@ class AST_Abdomen_e_Biceps: AppCompatActivity() {
             startActivity(intent)
             finish()
 
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@AST_Abdomen_e_Biceps, Abdomen_e_Biceps::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

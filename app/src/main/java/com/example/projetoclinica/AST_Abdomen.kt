@@ -8,6 +8,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 import kotlinx.android.synthetic.main.activity_coxas.*
@@ -20,6 +21,8 @@ class AST_Abdomen : AppCompatActivity() {
     var botão3: Button? = null
     var botão4: Button? = null
     var Continuar: Button? = null
+    var imageView: ImageView? = null
+
     @SuppressLint("ResourceType")
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,6 +55,12 @@ class AST_Abdomen : AppCompatActivity() {
         Continuar = findViewById(R.id.Continuar)
         Continuar!!.setOnClickListener {
             val intent = Intent(this@AST_Abdomen, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@AST_Abdomen, Abddomen::class.java)
             startActivity(intent)
             finish()
         }
