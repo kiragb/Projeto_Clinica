@@ -1,65 +1,104 @@
 package com.example.projetoclinica
 
+import android.media.Image
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import android.widget.Toast.makeText
 import androidx.annotation.Nullable
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment
+import java.text.SimpleDateFormat
 import java.util.*
+import android.content.Intent as Intent
 
 
-class SuaAgendaActivity : Fragment(), View.OnClickListener{
+class SuaAgendaActivity : Fragment() {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?):
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ):
             View? {
         return inflater.inflate(R.layout.sua_agenda, container, false)
     }
+
+    var BotãoCard1: Button? = null
+    var BotãoCard2: Button? = null
+    var BotãoCard3: Button? = null
+    var BotãoCard4: Button? = null
     var DataPosterior: ImageView? = null
-    var DataAnterior: ImageView? = null
-    var DiaeMes: TextView? = null
 
     override fun onViewCreated(view: View, @Nullable savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        DataPosterior = view.findViewById<View>(R.id.DataPosterior) as ImageView
-        DataAnterior = view.findViewById<View>(R.id.DataAnterior) as ImageView
+        val date = Calendar.getInstance().time
 
-        DataPosterior!!.setOnClickListener(this)
+        val DiaeMes = view.findViewById<TextView>(R.id.DiaeMes)
 
-        view.findViewById<TextView>(R.id.DiaeMes) as TextView
-        DiaeMes?.setOnClickListener{ Toast.makeText(this.activity,
-           "jsssssss", Toast.LENGTH_LONG).show() }
-    }
+        var dateTimeFormat = SimpleDateFormat("EEEE, dd MMMM ", Locale.getDefault())
+        DiaeMes!!.text = dateTimeFormat.format(date)
 
-    override fun onClick(p0: View?) {
-        
-    }
-}
+        val Agenda = view.findViewById<ListView>(R.id.Agenda)
 
-/* class agenda: AppCompatActivity() {
+        val txtTitle = arrayOf(
+            "10h",
+            "11h",
+            "12h",
+            "13h",
+            "14h",
+            "15h",
+            "16h",
+            "17h",
+            "18h",
+            "19h",
+            "20h",
+            "21h",
+            "22h"
+        )
 
-    var DataPosterior: ImageView? = null
-    var DataAnterior: ImageView? = null
-    var DiaeMes: TextView? = null
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.sua_agenda)
+        Agenda!!.adapter = MeuAdapter(
+            view.context, txtTitle
+        )
 
-        DataPosterior = findViewById<View>(R.id.DataPosterior) as ImageView
-        DataAnterior = findViewById<View>(R.id.DataAnterior) as ImageView
-
-        DataPosterior!!.setOnClickListener{
-
-            @Override
-           fun onClick(v: View?)
-            {
-                Toast.makeText(this, "imagem não encotrada",Toast.LENGTH_SHORT).show();
-            }
+        BotãoCard1 = view.findViewById(R.id.BotãoCard1)
+        BotãoCard1!!.setOnClickListener {
+            val intent = Intent(view.context, Sessao::class.java)
+            startActivity(intent)
         }
+
+        BotãoCard2 = view.findViewById(R.id.BotãoCard2)
+        BotãoCard2!!.setOnClickListener {
+            val intent = Intent(view.context, Sessao::class.java)
+            startActivity(intent)
+        }
+
+        BotãoCard3 = view.findViewById(R.id.BotãoCard3)
+        BotãoCard3!!.setOnClickListener {
+            val intent = Intent(view.context, Sessao::class.java)
+            startActivity(intent)
+        }
+
+        BotãoCard4 = view.findViewById(R.id.BotãoCard4)
+        BotãoCard4!!.setOnClickListener {
+            val intent = Intent(view.context, Sessao::class.java)
+            startActivity(intent)
+        }
+
+        DataPosterior = view.findViewById(R.id.DataPosterior)
+        DataPosterior!!.setOnClickListener {
+            // as per defined in your FragmentContainerView
+        }
+
+
+
+
+    }
+
+
 }
-    }*/
+
+
 

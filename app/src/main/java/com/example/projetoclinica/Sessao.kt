@@ -11,7 +11,13 @@ import kotlinx.android.synthetic.main.activity_tela_agenda.*
 class Sessao : AppCompatActivity() {
 
     var vermaisinfo: TextView? = null
+<<<<<<< HEAD
     var Iniciar_Sessao: Button? = null
+=======
+    var Entrar: Button? = null
+    var cancelar: Button? = null
+
+>>>>>>> staging
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sessao)
@@ -22,12 +28,21 @@ class Sessao : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+<<<<<<< HEAD
 
         Iniciar_Sessao = findViewById(R.id.Iniciar_Sessao)
         Iniciar_Sessao!!.setOnClickListener {
+=======
+        Entrar = findViewById(R.id.Entrar)
+        Entrar!!.setOnClickListener {
+>>>>>>> staging
             val intent = Intent(this@Sessao, Passo_a_Passo::class.java)
             startActivity(intent)
             finish()
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> staging
     }
 }

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pré Sessão"
+        android:textColor="@color/teal_700"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Capiturar Medidas"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128">
+
+    </TextView>
+    <!--Inicio Frente-->
+
+
+    <!--Fim Frente-->
+
+    <!--Inicio Costas-->
+
+    <ImageView
+        android:id="@+id/imagefrente"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        app:srcCompat="@drawable/frente" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Frente"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/costas"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <ImageView
+        android:id="@+id/imagecostas"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="@+id/costas"
+        app:layout_constraintEnd_toEndOf="@+id/costas"
+        app:layout_constraintStart_toStartOf="@+id/costas"
+        app:layout_constraintTop_toTopOf="@+id/costas"
+        app:srcCompat="@drawable/costas" />
+
+    <!--Fim Costas-->
+
+
+    <!--Inicio Esquerda-->
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Costas"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/esquerda"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <ImageView
+        android:id="@+id/imageesquerda"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="@+id/esquerda"
+        app:layout_constraintEnd_toEndOf="@+id/esquerda"
+        app:layout_constraintStart_toStartOf="@+id/esquerda"
+        app:layout_constraintTop_toTopOf="@+id/esquerda"
+        app:srcCompat="@drawable/esquerda" />
+
+    <!--Fim Esquerda-->
+
+    <!--inicio direita-->
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Esquerda"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/direita"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Direita"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771">
+
+    </TextView>
+
+    <!--Fim direita-->
+
+    <ImageView
+        android:id="@+id/imagedireita"
+        android:layout_width="141dp"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintBottom_toBottomOf="@+id/direita"
+        app:layout_constraintEnd_toEndOf="@+id/direita"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/direita"
+        app:layout_constraintTop_toTopOf="@+id/direita"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/direita" />
+
+    <Button
+        android:id="@+id/CalcularMedidas"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_buttom"
+        android:text="Calcular Medidas"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pular medidas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

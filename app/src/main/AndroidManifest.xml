@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.projetoclinica">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,9 +19,280 @@
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".PreSessao"
             android:exported="false" />
         <activity
+=======
+            android:name=".Sucesso"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_4_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_4_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_2_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_2_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_1_capture_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_1_Pos"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados4"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados3"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Medicoes_2"
+            android:exported="false" />
+        <activity
+            android:name=".Medidas_Por_Fotos_Frente_2"
+            android:exported="false" />
+        <activity
+            android:name=".Medidas_Por_Fotos_2"
+            android:exported="false" />
+        <activity
+            android:name=".Dados_da_Sessao"
+            android:exported="false"
+            android:label="@string/title_activity_dados_da_sessao"
+            android:theme="@style/Theme.ProjetoClinica.NoActionBar" />
+        <activity
+            android:name=".Mais_foto_4_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Foto_4"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Foto_3_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Fotos_3"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_foto_2_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_foto_2"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_Foto_1_capture"
+            android:exported="false" />
+        <activity
+            android:name=".Mais_fotos_1"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados2"
+            android:exported="false" />
+        <activity
+            android:name=".Editar_Medidas"
+            android:exported="false" />
+        <activity
+            android:name=".Editar_Medidas_2"
+            android:exported="false" />
+
+        <activity
+            android:name=".Resultados"
+            android:exported="false" />
+        <activity
+            android:name=".Medidas_Por_Fotos_Frente"
+            android:exported="false" />
+        <activity
+            android:name=".Medidas_Por_Fotos"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Medicoes"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AST_Coxas_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Biceps_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Peito_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Abdomen_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Costas_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Peito_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Abdomen_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Coxas_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Abdomen_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Costas_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Biceps_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Peito_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Costas_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Biceps_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Coxas_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Abdomen_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Costas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Coxas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Peito_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Biceps_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".AST_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Peito_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Coxas_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Abdomen_e_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Abdomen_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Costas_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Peito_e_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Costas_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Abdomen_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Peito_e_Biceps"
+            android:exported="false"
+            android:label="@string/title_activity_peito_ebiceps"
+            android:theme="@style/Theme.ProjetoClinica.NoActionBar" />
+        <activity
+            android:name=".Coxas_e_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Costas_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Abdomen_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Coxas_e_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Costas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Peito_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Coxas_e_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Peito"
+            android:exported="false" />
+        <activity
+            android:name=".Costas"
+            android:exported="false" />
+        <activity
+            android:name=".Biceps"
+            android:exported="false" />
+        <activity
+            android:name=".Coxas"
+            android:exported="false" />
+        <activity
+            android:name=".Adicionar_Mais_Locais_Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Abdomen"
+            android:exported="false" />
+        <activity
+            android:name=".Pre_Sessao"
+            android:exported="false" />
+        <activity
+            android:name=".SuaAgendaActivity2"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+>>>>>>> staging
             android:name=".Passo_a_Passo"
             android:exported="false" />
         <activity
