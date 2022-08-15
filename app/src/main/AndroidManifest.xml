@@ -19,11 +19,9 @@
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
             android:name=".PreSessao"
             android:exported="false" />
         <activity
-=======
             android:name=".Sucesso"
             android:exported="false" />
         <activity
@@ -292,7 +290,6 @@
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity
->>>>>>> staging
             android:name=".Passo_a_Passo"
             android:exported="false" />
         <activity
