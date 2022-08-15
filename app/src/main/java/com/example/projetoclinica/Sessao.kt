@@ -12,6 +12,7 @@ class Sessao : AppCompatActivity() {
 
     var vermaisinfo: TextView? = null
     var Entrar: Button? = null
+    var cancelar: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,5 +30,6 @@ class Sessao : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
     }
 }

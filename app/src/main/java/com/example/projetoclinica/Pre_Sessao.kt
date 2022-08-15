@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class Pre_Sessao : AppCompatActivity() {
 
@@ -14,6 +15,7 @@ class Pre_Sessao : AppCompatActivity() {
     var bicep2: Button? = null
     var costas: Button? = null
     var peito: Button? = null
+    var imageview: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -67,7 +69,12 @@ class Pre_Sessao : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+        imageview = findViewById(R.id.imageView)
+        imageview!!.setOnClickListener {
+            val intent = Intent(this@Pre_Sessao, Passo_a_Passo::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
 }

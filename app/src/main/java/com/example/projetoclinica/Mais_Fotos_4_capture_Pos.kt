@@ -28,7 +28,7 @@ class Mais_Fotos_4_capture_Pos: AppCompatActivity() {
         }
         Continuar = findViewById(R.id.Continuar)
         Continuar!!.setOnClickListener {
-            val intent = Intent(this@Mais_Fotos_4_capture_Pos, Dados_da_Sessao::class.java)
+            val intent = Intent(this@Mais_Fotos_4_capture_Pos, Sucesso::class.java)
             startActivity(intent)
             finish()
         }

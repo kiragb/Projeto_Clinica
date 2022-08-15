@@ -12,6 +12,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 
 class AST_Costas_e_Abdomen : AppCompatActivity() {
+    var Continuar: Button? = null
 
     var botão1: Button? = null
     var botão2: Button? = null
@@ -73,6 +74,11 @@ class AST_Costas_e_Abdomen : AppCompatActivity() {
             botão8!!.setBackgroundResource(R.drawable.btn_pressionado)
             botão8!!.setTextAppearance(Color.WHITE)
         }
-
+        Continuar = findViewById(R.id.Continuar)
+        Continuar!!.setOnClickListener {
+            val intent = Intent(this@AST_Costas_e_Abdomen, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

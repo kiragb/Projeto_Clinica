@@ -21,6 +21,8 @@ class AST_Abdomen_e_Biceps: AppCompatActivity() {
     var botão6: Button? = null
     var botão7: Button? = null
     var botão8: Button? = null
+    var Continuar: Button? = null
+
     @SuppressLint("ResourceType")
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,6 +75,12 @@ class AST_Abdomen_e_Biceps: AppCompatActivity() {
             botão8!!.setBackgroundResource(R.drawable.btn_pressionado)
             botão8!!.setTextAppearance(Color.WHITE)
         }
+        Continuar = findViewById(R.id.Continuar)
+        Continuar!!.setOnClickListener {
+            val intent = Intent(this@AST_Abdomen_e_Biceps, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
 
+        }
     }
 }

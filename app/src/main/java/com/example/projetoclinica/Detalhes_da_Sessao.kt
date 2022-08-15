@@ -33,7 +33,6 @@ class Detalhes_da_Sessao : AppCompatActivity() {
         viewPager2.adapter = sectionsPagerAdapter2
         val tabs: TabLayout = binding.tabs2
         tabs.setupWithViewPager(viewPager2)
-        val fab: FloatingActionButton = binding.fab
 
         imageView = findViewById(R.id.imageView)
         imageView!!.setOnClickListener {

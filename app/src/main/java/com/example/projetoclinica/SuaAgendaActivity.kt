@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.annotation.Nullable
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment
 import java.text.SimpleDateFormat
 import java.util.*
 import android.content.Intent as Intent
@@ -88,11 +89,15 @@ class SuaAgendaActivity : Fragment() {
 
         DataPosterior = view.findViewById(R.id.DataPosterior)
         DataPosterior!!.setOnClickListener {
-            val intent = Intent(view.context, SuaAgendaActivity2::class.java)
-            startActivity(intent)
+            // as per defined in your FragmentContainerView
         }
 
+
+
+
     }
+
+
 }
 
 

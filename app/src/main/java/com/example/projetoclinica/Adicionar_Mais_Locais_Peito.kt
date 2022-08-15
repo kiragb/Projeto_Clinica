@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class Adicionar_Mais_Locais_Peito : AppCompatActivity() {
+    var imageView: ImageView? = null
 
     var cocha1: Button? = null
     var cocha2: Button? = null
@@ -62,7 +64,12 @@ class Adicionar_Mais_Locais_Peito : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Adicionar_Mais_Locais_Peito, Peito::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
 }

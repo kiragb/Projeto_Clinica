@@ -4,8 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class Peito_e_Biceps : AppCompatActivity() {
+    var imageView: ImageView? = null
 
 var Continuar: Button? = null
 
@@ -19,5 +21,11 @@ var Continuar: Button? = null
             startActivity(intent)
             finish()
     }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Peito_e_Biceps, Biceps::class.java)
+            startActivity(intent)
+            finish()
+        }
 }
 }

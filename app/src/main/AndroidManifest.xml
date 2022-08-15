@@ -19,6 +19,9 @@
         android:theme="@style/Theme.ProjetoClinica"
         tools:targetApi="31">
         <activity
+            android:name=".Sucesso"
+            android:exported="false" />
+        <activity
             android:name=".Mais_Fotos_4_capture_Pos"
             android:exported="false" />
         <activity
@@ -95,6 +98,7 @@
         <activity
             android:name=".Editar_Medidas_2"
             android:exported="false" />
+
         <activity
             android:name=".Resultados"
             android:exported="false" />

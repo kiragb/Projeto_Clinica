@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class Adicionar_Mais_Locais_Costas: AppCompatActivity() {
 
@@ -13,6 +14,7 @@ class Adicionar_Mais_Locais_Costas: AppCompatActivity() {
     var bicep1: Button? = null
     var bicep2: Button? = null
     var peito: Button? = null
+    var imageView: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,6 +63,11 @@ class Adicionar_Mais_Locais_Costas: AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Adicionar_Mais_Locais_Costas, Costas::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

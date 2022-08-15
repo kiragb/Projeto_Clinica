@@ -8,6 +8,7 @@
 
 
     <TextView
+        android:id="@+id/textView29"
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:layout_marginTop="-588sp"
@@ -93,6 +94,8 @@
         app:layout_constraintStart_toStartOf="@+id/viewFinder"
         app:layout_constraintTop_toTopOf="@+id/viewFinder" />
 
+
+
     <Button
         android:id="@+id/PularFoto"
         android:layout_width="320dp"
@@ -110,13 +113,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.428" />
 
+
     <TextView
+        android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-480sp"
         android:text="1"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:layout_marginTop="-480sp"
         android:translationZ="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.871"
@@ -148,6 +153,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
 
     </androidx.camera.view.PreviewView>
 

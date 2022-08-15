@@ -41,7 +41,7 @@ class Mais_Fotos_1_Pos : AppCompatActivity() {
 
         PularFoto = findViewById(R.id.PularFoto)
         PularFoto!!.setOnClickListener {
-            val intent = Intent(this@Mais_Fotos_1_Pos, Dados_da_Sessao::class.java)
+            val intent = Intent(this@Mais_Fotos_1_Pos, Sucesso::class.java)
             startActivity(intent)
         }
         // hide the action bar
