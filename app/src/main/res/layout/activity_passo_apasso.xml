@@ -20,11 +20,8 @@
         app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.092">
-=======
-        app:layout_constraintVertical_bias="0.102">
->>>>>>> staging
+
 
     </Button>
 
@@ -41,11 +38,9 @@
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintVertical_bias="0.428">
-=======
-        app:layout_constraintVertical_bias="0.318">
->>>>>>> staging
+
 
     </Button>
 
@@ -62,11 +57,8 @@
         app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintVertical_bias="0.518">
-=======
-        app:layout_constraintVertical_bias="0.373">
->>>>>>> staging
+
+
 
     </Button>
 
@@ -78,17 +70,12 @@
         android:background="@drawable/circulo_certo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.754">
-=======
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.539">
->>>>>>> staging
+
 
     </Button>
 
@@ -103,11 +90,8 @@
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintVertical_bias="0.179">
-=======
-        app:layout_constraintVertical_bias="0.165">
->>>>>>> staging
 
     </Button>
 
@@ -118,21 +102,10 @@
         android:layout_marginStart="-9dp"
         android:background="@drawable/circulo_vazio"
         android:text="A"
-<<<<<<< HEAD
+
         android:layout_marginTop="7dp"
-=======
-        android:textColor="#9F55D3"
->>>>>>> staging
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintVertical_bias="0.594">
-=======
-        app:layout_constraintVertical_bias="0.432">
->>>>>>> staging
 
     </Button>
 
@@ -148,11 +121,9 @@
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintVertical_bias="0.261">
-=======
-        app:layout_constraintVertical_bias="0.218">
->>>>>>> staging
+
 
     </Button>
 
@@ -168,11 +139,8 @@
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
+
         app:layout_constraintVertical_bias="0.673">
-=======
-        app:layout_constraintVertical_bias="0.481">
->>>>>>> staging
 
     </Button>
 
@@ -188,11 +156,8 @@
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.347">
-=======
-        app:layout_constraintVertical_bias="0.267">
->>>>>>> staging
+
 
     </Button>
 
@@ -201,31 +166,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Passo a Passo"
-<<<<<<< HEAD
         android:textSize="20dp"
         android:textStyle="bold"
-=======
->>>>>>> staging
-        android:textColor="@color/teal_700"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+
 
     <TextView
-<<<<<<< HEAD
         android:id="@+id/textView3"
-=======
-        android:id="@+id/textView2"
->>>>>>> staging
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pré Sessão"
-        android:textColor="@color/black"
-<<<<<<< HEAD
+    android:id="@+id/textView2"
+
         android:textSize="17dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -237,15 +185,7 @@
 
     <TextView
         android:id="@+id/textView14"
-=======
-        android:textSize="13dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.242"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
+
 
     <TextView
         android:id="@+id/textView3"
