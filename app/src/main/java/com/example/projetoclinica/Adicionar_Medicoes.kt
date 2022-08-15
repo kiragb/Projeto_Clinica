@@ -5,14 +5,12 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 
 class Adicionar_Medicoes : AppCompatActivity() {
+    var imageView: ImageView? = null
 
     var MedidasPorFotos: Button? = null
     var pularmedidas: TextView? = null
@@ -36,6 +34,13 @@ class Adicionar_Medicoes : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Adicionar_Medicoes, AST_Abdomen::class.java)
+            startActivity(intent)
+            finish()
+        }
+
 
     }
 

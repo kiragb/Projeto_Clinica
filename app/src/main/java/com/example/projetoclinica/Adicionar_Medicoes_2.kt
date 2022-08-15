@@ -5,10 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -16,6 +13,8 @@ class Adicionar_Medicoes_2 : AppCompatActivity() {
 
     var MedidasPorFotos: Button? = null
     var pularmedidas: TextView? = null
+    var imageView: ImageView? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adicionar_medicoes_2)
@@ -33,6 +32,12 @@ class Adicionar_Medicoes_2 : AppCompatActivity() {
         pularmedidas = findViewById(R.id.pularmedidas)
         pularmedidas!!.setOnClickListener {
             val intent = Intent(this@Adicionar_Medicoes_2, Mais_Fotos_1_Pos::class.java)
+            startActivity(intent)
+            finish()
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Adicionar_Medicoes_2, Detalhes_da_Sessao::class.java)
             startActivity(intent)
             finish()
         }

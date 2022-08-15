@@ -21,6 +21,8 @@ class Medidas_Por_Fotos : AppCompatActivity() {
     var imageViewFotoCostas: ImageView? = null
     var imageViewFotoDireita: ImageView? = null
     var imageViewFotoEsquerda: ImageView? = null
+    var imageView: ImageView? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,6 +49,12 @@ class Medidas_Por_Fotos : AppCompatActivity() {
         esquerda!!.setOnClickListener {
             val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             startActivityForResult(cameraIntent, CAMERA_REQUEST)
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Medidas_Por_Fotos, Adicionar_Medicoes::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 

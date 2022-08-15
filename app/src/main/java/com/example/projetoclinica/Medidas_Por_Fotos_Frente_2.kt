@@ -14,6 +14,7 @@ import android.widget.ImageView
 
 
 class Medidas_Por_Fotos_Frente_2 : AppCompatActivity() {
+    var imageView: ImageView? = null
 
     var imagefrente: ImageView? = null
     var costas: Button? = null
@@ -60,6 +61,12 @@ class Medidas_Por_Fotos_Frente_2 : AppCompatActivity() {
         CalcularMedidas!!.setOnClickListener {
             val intent = Intent(this@Medidas_Por_Fotos_Frente_2, Resultados3::class.java)
             startActivity(intent)
+        }
+        imageView = findViewById(R.id.imageView)
+        imageView!!.setOnClickListener {
+            val intent = Intent(this@Medidas_Por_Fotos_Frente_2, Medidas_Por_Fotos_2::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }
